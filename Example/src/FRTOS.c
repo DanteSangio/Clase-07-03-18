@@ -75,10 +75,15 @@ static void xTaskToggle(void *pvParameters)
  */
 void TIMER0_IRQHandler(void)
 {
+	BaseType_t Testigo=pdFALSE;
+
 	if (Chip_TIMER_MatchPending(LPC_TIMER0, 1))
 	{
 		Chip_TIMER_ClearMatch(LPC_TIMER0, 1);				//Resetea match
-		xSemaphoreGiveFromISR(Semaforo_1 , portMAX_DELAY );
+
+		xSemaphoreGiveFromISR(Semaforo_1 , &Testigo );		//Devuelve si una de las tareas bloqueadas tiene mayor prioridad que la actual
+
+		portYIELD_FROM_ISR(Testigo);						//Si testigo es TRUE -> ejecuta el scheduler
 	}
 }
 
