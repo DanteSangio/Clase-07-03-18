@@ -12,22 +12,18 @@
 #include "task.h"
 #include "semphr.h"
 #include "queue.h"
-
-SemaphoreHandle_t Semaforo_1;
-SemaphoreHandle_t Semaforo_2;
-
-QueueHandle_t Cola_1;
-
 #include <cr_section_macros.h>
 
-// TODO: insert other include files here
-
-// TODO: insert other definitions and declarations here
+#define TICKRATE_HZ1 (4*1)	// 4: cte de frec - 1 tick por segundo
 #define PORT(x) 	((uint8_t) x)
 #define PIN(x)		((uint8_t) x)
-
 #define OUTPUT		((uint8_t) 1)
 #define INPUT		((uint8_t) 0)
+
+SemaphoreHandle_t Semaforo_1;
+//SemaphoreHandle_t Semaforo_2;
+
+//QueueHandle_t Cola_1;
 
 
 void uC_StartUp (void)
@@ -38,38 +34,51 @@ void uC_StartUp (void)
 }
 
 
-/*TAREA QUE GUARDA EL DATO*/
-static void vTask1(void *pvParameters)
+/*TAREA QUE INICIA EL TIMER*/
+static void vTaskInicTimer(void *pvParameters)
 {
 	while (1)
 	{
-		unsigned int Parametro=5;
+		uint32_t timerFreq;
 
-		vTaskDelay(5000/portTICK_RATE_MS);
-
-		xQueueSendToBack(Cola_1,&Parametro,portMAX_DELAY);
+		/* Enable timer 1 clock */
+		Chip_TIMER_Init(LPC_TIMER0);	//Enciende el modulo
+		/* Timer rate is system clock rate */
+		timerFreq = Chip_Clock_GetSystemClockRate();					//Obtiene la frecuencia a la que esta corriendo el uC
+		/* Timer setup for match and interrupt at TICKRATE_HZ */
+		Chip_TIMER_Reset(LPC_TIMER0);									//Borra la cuenta
+		Chip_TIMER_MatchEnableInt(LPC_TIMER0, 1);						//Habilita interrupcion del match 1 timer 0
+		Chip_TIMER_SetMatch(LPC_TIMER0, 1, (timerFreq / TICKRATE_HZ1));	//Le asigna un valor al match - seteo la frec a la que quiero que el timer me interrumpa (Ej 1ms)
+		Chip_TIMER_ResetOnMatchEnable(LPC_TIMER0, 1);					//Cada vez que llega al match resetea la cuenta
+		Chip_TIMER_Enable(LPC_TIMER0);									//Comienza a contar
+		/* Enable timer interrupt */ 		//El NVIC asigna prioridades de las interrupciones (prioridad de 0 a inf)
+		NVIC_ClearPendingIRQ(TIMER0_IRQn);
+		NVIC_EnableIRQ(TIMER0_IRQn);		//Enciende la interrupcion que acabamos de configurar
 
 		vTaskDelete(NULL);	//Borra la tarea, no necesitaria el while(1)
 	}
 }
 
 /*TAREA QUE RECIBE EL DATO*/
-static void xTask2(void *pvParameters)
+static void xTaskToggle(void *pvParameters)
 {
-	unsigned int Receive;
-
 	while (1)
 	{
-		xQueueReceive(Cola_1,&Receive,portMAX_DELAY);
+		xSemaphoreTake(Semaforo_1 , portMAX_DELAY );
+		Chip_GPIO_SetPinToggle(LPC_GPIO,PORT(0),PIN(22));
+	}
+}
 
-		Receive*=2;
-
-		while(Receive)
-		{
-			Chip_GPIO_SetPinToggle(LPC_GPIO,PORT(0),PIN(22));
-			Receive--;
-			vTaskDelay(500/portTICK_RATE_MS);
-		}
+/**
+ * @brief	Handle interrupt from 32-bit timer
+ * @return	Nothing
+ */
+void TIMER0_IRQHandler(void)
+{
+	if (Chip_TIMER_MatchPending(LPC_TIMER0, 1))
+	{
+		Chip_TIMER_ClearMatch(LPC_TIMER0, 1);				//Resetea match
+		xSemaphoreGiveFromISR(Semaforo_1 , portMAX_DELAY );
 	}
 }
 
@@ -82,21 +91,19 @@ static void xTask2(void *pvParameters)
 int main(void)
 {
 
-	uC_StartUp (); // Config
+	uC_StartUp ();				//Config
+
 	SystemCoreClockUpdate();
 
 	vSemaphoreCreateBinary(Semaforo_1);
-	vSemaphoreCreateBinary(Semaforo_2);
-
-	Cola_1 = xQueueCreate(1, sizeof(uint32_t));	//Creamos una cola
 
 	xSemaphoreTake(Semaforo_1 , portMAX_DELAY );
 
-	xTaskCreate(vTask1, (char *) "vTaskLed1",
-				configMINIMAL_STACK_SIZE, NULL, (tskIDLE_PRIORITY + 1UL),
+	xTaskCreate(vTaskInicTimer, (char *) "vTaskInicTimer",
+				configMINIMAL_STACK_SIZE, NULL, (tskIDLE_PRIORITY + 2UL),
 				(xTaskHandle *) NULL);
 
-	xTaskCreate(xTask2, (char *) "vTaskLed2",
+	xTaskCreate(xTaskToggle, (char *) "xTaskToggle",
 				configMINIMAL_STACK_SIZE, NULL, (tskIDLE_PRIORITY + 1UL),
 				(xTaskHandle *) NULL);
 

@@ -24,25 +24,25 @@ endif
 # Add inputs and outputs from these tool invocations to the build variables 
 
 # All Target
-all: EjemploColaTarea.axf
+all: Dimmer.axf
 
 # Tool invocations
-EjemploColaTarea.axf: $(OBJS) $(USER_OBJS)
+Dimmer.axf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: MCU Linker'
-	arm-none-eabi-gcc -nostdlib -L"C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug" -Xlinker -Map="EjemploColaTarea.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m3 -mthumb -T "EjemploColaTarea_Debug.ld" -o "EjemploColaTarea.axf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-gcc -nostdlib -L"C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug" -Xlinker -Map="Dimmer.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m3 -mthumb -T "EjemploColaTarea_Debug.ld" -o "Dimmer.axf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 	$(MAKE) --no-print-directory post-build
 
 # Other Targets
 clean:
-	-$(RM) $(EXECUTABLES)$(OBJS)$(C_DEPS) EjemploColaTarea.axf
+	-$(RM) $(EXECUTABLES)$(OBJS)$(C_DEPS) Dimmer.axf
 	-@echo ' '
 
 post-build:
 	-@echo 'Performing post-build steps'
-	-arm-none-eabi-size "EjemploColaTarea.axf"; # arm-none-eabi-objcopy -v -O binary "EjemploColaTarea.axf" "EjemploColaTarea.bin" ; # checksum -p LPC1769 -d "EjemploColaTarea.bin";
+	-arm-none-eabi-size "Dimmer.axf"; # arm-none-eabi-objcopy -v -O binary "Dimmer.axf" "Dimmer.bin" ; # checksum -p LPC1769 -d "Dimmer.bin";
 	-@echo ' '
 
 .PHONY: all clean dependents
