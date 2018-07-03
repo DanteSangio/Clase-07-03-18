@@ -1,14 +1,14 @@
 Archive member included to satisfy reference by file (symbol)
 
-C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
                               ./freeRTOS/src/port.o (SystemCoreClock)
-C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
-                              C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o) (Chip_Clock_EnablePLL)
-C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                              C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o) (Chip_Clock_EnablePLL)
+C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
                               ./Example/src/FRTOS.o (Chip_IOCON_PinMux)
-C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
                               ./Example/src/sysinit.o (Chip_SystemInit)
-C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
                               ./Example/src/FRTOS.o (Chip_TIMER_Init)
 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_semihost.a(_cr__main.o)
                               ./Example/src/cr_startup_lpc175x_6x.o (__main)
@@ -78,10 +78,11 @@ c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../
 Allocating common symbols
 Common symbol       size              file
 
-SystemCoreClock     0x4               C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+SystemCoreClock     0x4               C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
 
 Discarded input sections
 
+ .group         0x00000000        0x8 ./freeRTOS/src/FreeRTOSCommonHooks.o
  .group         0x00000000        0x8 ./freeRTOS/src/FreeRTOSCommonHooks.o
  .group         0x00000000        0x8 ./freeRTOS/src/FreeRTOSCommonHooks.o
  .group         0x00000000        0x8 ./freeRTOS/src/FreeRTOSCommonHooks.o
@@ -174,8 +175,8 @@ Discarded input sections
  .debug_macro   0x00000000       0xc0 ./freeRTOS/src/croutine.o
  .debug_macro   0x00000000       0x8c ./freeRTOS/src/croutine.o
  .debug_macro   0x00000000       0x43 ./freeRTOS/src/croutine.o
- .debug_line    0x00000000      0x239 ./freeRTOS/src/croutine.o
- .debug_str     0x00000000     0x77ab ./freeRTOS/src/croutine.o
+ .debug_line    0x00000000      0x1fd ./freeRTOS/src/croutine.o
+ .debug_str     0x00000000     0x778d ./freeRTOS/src/croutine.o
  .comment       0x00000000       0x80 ./freeRTOS/src/croutine.o
  .ARM.attributes
                 0x00000000       0x33 ./freeRTOS/src/croutine.o
@@ -238,8 +239,8 @@ Discarded input sections
  .debug_macro   0x00000000       0xc0 ./freeRTOS/src/event_groups.o
  .debug_macro   0x00000000       0x8c ./freeRTOS/src/event_groups.o
  .debug_macro   0x00000000       0x91 ./freeRTOS/src/event_groups.o
- .debug_line    0x00000000      0x3c7 ./freeRTOS/src/event_groups.o
- .debug_str     0x00000000     0x7f04 ./freeRTOS/src/event_groups.o
+ .debug_line    0x00000000      0x38b ./freeRTOS/src/event_groups.o
+ .debug_str     0x00000000     0x7ee6 ./freeRTOS/src/event_groups.o
  .comment       0x00000000       0x80 ./freeRTOS/src/event_groups.o
  .debug_frame   0x00000000      0x1a8 ./freeRTOS/src/event_groups.o
  .ARM.attributes
@@ -537,11 +538,12 @@ Discarded input sections
  .debug_macro   0x00000000       0x8c ./freeRTOS/src/timers.o
  .debug_macro   0x00000000       0x94 ./freeRTOS/src/timers.o
  .debug_macro   0x00000000       0x91 ./freeRTOS/src/timers.o
- .debug_line    0x00000000      0x24c ./freeRTOS/src/timers.o
- .debug_str     0x00000000     0x822d ./freeRTOS/src/timers.o
+ .debug_line    0x00000000      0x210 ./freeRTOS/src/timers.o
+ .debug_str     0x00000000     0x820f ./freeRTOS/src/timers.o
  .comment       0x00000000       0x80 ./freeRTOS/src/timers.o
  .ARM.attributes
                 0x00000000       0x33 ./freeRTOS/src/timers.o
+ .group         0x00000000        0x8 ./Example/src/FRTOS.o
  .group         0x00000000        0x8 ./Example/src/FRTOS.o
  .group         0x00000000        0x8 ./Example/src/FRTOS.o
  .group         0x00000000        0x8 ./Example/src/FRTOS.o
@@ -602,7 +604,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x3a ./Example/src/FRTOS.o
  .debug_macro   0x00000000       0x2d ./Example/src/FRTOS.o
  .debug_macro   0x00000000      0xbb1 ./Example/src/FRTOS.o
- .debug_macro   0x00000000      0x22c ./Example/src/FRTOS.o
+ .debug_macro   0x00000000       0x58 ./Example/src/FRTOS.o
+ .debug_macro   0x00000000      0x230 ./Example/src/FRTOS.o
  .debug_macro   0x00000000       0x42 ./Example/src/FRTOS.o
  .debug_macro   0x00000000       0x52 ./Example/src/FRTOS.o
  .debug_macro   0x00000000       0x78 ./Example/src/FRTOS.o
@@ -691,6 +694,7 @@ Discarded input sections
  .group         0x00000000        0x8 ./Example/src/sysinit.o
  .group         0x00000000        0x8 ./Example/src/sysinit.o
  .group         0x00000000        0x8 ./Example/src/sysinit.o
+ .group         0x00000000        0x8 ./Example/src/sysinit.o
  .text          0x00000000        0x0 ./Example/src/sysinit.o
  .data          0x00000000        0x0 ./Example/src/sysinit.o
  .bss           0x00000000        0x0 ./Example/src/sysinit.o
@@ -705,7 +709,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x3a ./Example/src/sysinit.o
  .debug_macro   0x00000000       0x2d ./Example/src/sysinit.o
  .debug_macro   0x00000000      0xbb1 ./Example/src/sysinit.o
- .debug_macro   0x00000000      0x22c ./Example/src/sysinit.o
+ .debug_macro   0x00000000       0x58 ./Example/src/sysinit.o
+ .debug_macro   0x00000000      0x230 ./Example/src/sysinit.o
  .debug_macro   0x00000000       0x42 ./Example/src/sysinit.o
  .debug_macro   0x00000000       0x52 ./Example/src/sysinit.o
  .debug_macro   0x00000000       0x78 ./Example/src/sysinit.o
@@ -729,414 +734,428 @@ Discarded input sections
  .debug_macro   0x00000000       0x16 ./Example/src/sysinit.o
  .debug_macro   0x00000000       0xca ./Example/src/sysinit.o
  .debug_macro   0x00000000       0x18 ./Example/src/sysinit.o
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .text          0x00000000        0x0 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .data          0x00000000        0x0 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .bss           0x00000000        0x0 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .text          0x00000000        0x0 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .data          0x00000000        0x0 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .bss           0x00000000        0x0 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
  .text.Chip_Clock_IsUSBPLLLocked
-                0x00000000       0x24 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+                0x00000000       0x24 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
  .text.Chip_Clock_IsUSBPLLConnected
-                0x00000000       0x24 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+                0x00000000       0x24 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
  .text.Chip_USB_Init
-                0x00000000       0x4c C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .debug_macro   0x00000000       0x10 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .debug_macro   0x00000000      0x12d C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .debug_macro   0x00000000      0x5b2 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .debug_macro   0x00000000       0x22 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .debug_macro   0x00000000       0x7b C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .debug_macro   0x00000000       0x10 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .debug_macro   0x00000000       0x2d C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .debug_macro   0x00000000       0x3a C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .debug_macro   0x00000000       0x2d C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .debug_macro   0x00000000      0xbb1 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .debug_macro   0x00000000      0x22c C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .debug_macro   0x00000000       0x42 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .debug_macro   0x00000000       0x52 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .debug_macro   0x00000000       0x78 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .debug_macro   0x00000000       0x82 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .debug_macro   0x00000000      0x48c C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .debug_macro   0x00000000       0x34 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .debug_macro   0x00000000      0x4c5 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .debug_macro   0x00000000      0x1b7 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .debug_macro   0x00000000       0x10 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .debug_macro   0x00000000      0x21b C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .debug_macro   0x00000000      0x1b9 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .debug_macro   0x00000000       0x40 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .debug_macro   0x00000000       0x22 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .debug_macro   0x00000000      0x162 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .debug_macro   0x00000000       0x94 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .debug_macro   0x00000000       0xb8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .debug_macro   0x00000000       0x4c C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .debug_macro   0x00000000       0x16 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .debug_macro   0x00000000      0x328 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .debug_macro   0x00000000       0x49 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .debug_macro   0x00000000       0x16 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .debug_macro   0x00000000       0xca C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .debug_macro   0x00000000       0x18 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .text          0x00000000        0x0 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .data          0x00000000        0x0 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .bss           0x00000000        0x0 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00000000       0x4c C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00000000       0x10 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00000000      0x12d C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00000000      0x5b2 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00000000       0x22 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00000000       0x7b C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00000000       0x10 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00000000       0x2d C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00000000       0x3a C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00000000       0x2d C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00000000      0xbb1 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00000000       0x58 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00000000      0x230 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00000000       0x42 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00000000       0x52 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00000000       0x78 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00000000       0x82 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00000000      0x48c C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00000000       0x34 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00000000      0x4c5 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00000000      0x1b7 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00000000       0x10 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00000000      0x21b C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00000000      0x1b9 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00000000       0x40 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00000000       0x22 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00000000      0x162 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00000000       0x94 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00000000       0xb8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00000000       0x4c C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00000000       0x16 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00000000      0x328 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00000000       0x49 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00000000       0x16 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00000000       0xca C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00000000       0x18 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .text          0x00000000        0x0 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .data          0x00000000        0x0 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .bss           0x00000000        0x0 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
  .text.Chip_Clock_IsUSBPLLEnabled
-                0x00000000       0x24 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00000000       0x24 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
  .text.Chip_Clock_IsUSBPLLConnected
-                0x00000000       0x24 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00000000       0x24 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
  .text.Chip_Clock_GetUSBPLLInClockRate
-                0x00000000        0xe C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00000000        0xe C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
  .text.Chip_Clock_DisablePeriphClock
-                0x00000000       0x34 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00000000       0x34 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
  .text.Chip_Clock_IsPeripheralClockEnabled
-                0x00000000       0x3c C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00000000       0x3c C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
  .text.Chip_Clock_SetCPUClockSource
-                0x00000000       0x2a C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00000000       0x2a C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
  .text.Chip_Clock_SetUSBClockDiv
-                0x00000000       0x30 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00000000       0x30 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
  .text.Chip_Clock_GetUSBClockDiv
-                0x00000000       0x1c C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00000000       0x1c C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
  .text.Chip_Clock_SetPCLKDiv
-                0x00000000       0x64 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00000000       0x64 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
  .text.Chip_Clock_GetPCLKDiv
-                0x00000000       0x8c C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00000000       0x8c C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
  .text.Chip_Clock_SetCLKOUTSource
-                0x00000000       0x44 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00000000       0x44 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
  .text.Chip_Clock_GetUSBPLLOutClockRate
-                0x00000000       0x40 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00000000       0x40 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
  .text.Chip_Clock_GetUSBClockRate
-                0x00000000       0x38 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00000000       0x38 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
  .text.Chip_Clock_GetPeripheralClockRate
-                0x00000000       0x26 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .debug_macro   0x00000000      0x8c2 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .debug_macro   0x00000000       0x10 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .debug_macro   0x00000000      0x12d C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .debug_macro   0x00000000      0x5b2 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .debug_macro   0x00000000       0x22 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .debug_macro   0x00000000       0x7b C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .debug_macro   0x00000000       0x10 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .debug_macro   0x00000000       0x2d C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .debug_macro   0x00000000       0x3a C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .debug_macro   0x00000000       0x2d C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .debug_macro   0x00000000      0xbb1 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .debug_macro   0x00000000      0x22c C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .debug_macro   0x00000000       0x42 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .debug_macro   0x00000000       0x52 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .debug_macro   0x00000000       0x78 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .debug_macro   0x00000000       0x82 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .debug_macro   0x00000000      0x48c C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .debug_macro   0x00000000       0x34 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .debug_macro   0x00000000      0x4c5 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .debug_macro   0x00000000      0x1b7 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .debug_macro   0x00000000       0x10 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .debug_macro   0x00000000      0x21b C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .debug_macro   0x00000000      0x1b9 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .debug_macro   0x00000000       0x40 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .debug_macro   0x00000000       0x22 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .debug_macro   0x00000000      0x162 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .debug_macro   0x00000000       0x94 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .debug_macro   0x00000000       0xb8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .debug_macro   0x00000000       0x4c C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .debug_macro   0x00000000       0x16 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .debug_macro   0x00000000      0x328 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .debug_macro   0x00000000       0x49 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .debug_macro   0x00000000       0x16 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .debug_macro   0x00000000       0xca C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .debug_macro   0x00000000       0x18 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .text          0x00000000        0x0 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .data          0x00000000        0x0 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .bss           0x00000000        0x0 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+                0x00000000       0x26 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000      0x8c2 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0x10 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000      0x12d C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000      0x5b2 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0x22 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0x7b C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0x10 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0x2d C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0x3a C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0x2d C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000      0xbb1 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0x58 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000      0x230 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0x42 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0x52 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0x78 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0x82 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000      0x48c C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0x34 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000      0x4c5 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000      0x1b7 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0x10 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000      0x21b C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000      0x1b9 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0x40 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0x22 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000      0x162 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0x94 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0xb8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0x4c C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0x16 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000      0x328 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0x49 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0x16 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0xca C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0x18 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .text          0x00000000        0x0 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .data          0x00000000        0x0 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .bss           0x00000000        0x0 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
  .text.Chip_IOCON_PinMuxSet
-                0x00000000       0x36 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+                0x00000000       0x36 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
  .text.Chip_IOCON_SetPinMuxing
-                0x00000000       0x62 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .debug_macro   0x00000000      0x8c2 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .debug_macro   0x00000000       0x10 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .debug_macro   0x00000000      0x12d C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .debug_macro   0x00000000      0x5b2 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .debug_macro   0x00000000       0x22 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .debug_macro   0x00000000       0x7b C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .debug_macro   0x00000000       0x10 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .debug_macro   0x00000000       0x2d C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .debug_macro   0x00000000       0x3a C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .debug_macro   0x00000000       0x2d C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .debug_macro   0x00000000      0xbb1 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .debug_macro   0x00000000      0x22c C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .debug_macro   0x00000000       0x42 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .debug_macro   0x00000000       0x52 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .debug_macro   0x00000000       0x78 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .debug_macro   0x00000000       0x82 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .debug_macro   0x00000000      0x48c C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .debug_macro   0x00000000       0x34 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .debug_macro   0x00000000      0x4c5 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .debug_macro   0x00000000      0x1b7 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .debug_macro   0x00000000       0x10 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .debug_macro   0x00000000      0x21b C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .debug_macro   0x00000000      0x1b9 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .debug_macro   0x00000000       0x40 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .debug_macro   0x00000000       0x22 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .debug_macro   0x00000000      0x162 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .debug_macro   0x00000000       0x94 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .debug_macro   0x00000000       0xb8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .debug_macro   0x00000000       0x4c C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .debug_macro   0x00000000       0x16 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .debug_macro   0x00000000      0x328 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .debug_macro   0x00000000       0x49 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .debug_macro   0x00000000       0x16 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .debug_macro   0x00000000       0xca C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .debug_macro   0x00000000       0x18 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .text          0x00000000        0x0 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .data          0x00000000        0x0 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .bss           0x00000000        0x0 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .text.Chip_SetupIrcClocking
-                0x00000000       0x6a C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .debug_macro   0x00000000      0x8c2 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .debug_macro   0x00000000       0x10 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .debug_macro   0x00000000      0x12d C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .debug_macro   0x00000000      0x5b2 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .debug_macro   0x00000000       0x22 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .debug_macro   0x00000000       0x7b C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .debug_macro   0x00000000       0x10 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .debug_macro   0x00000000       0x2d C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .debug_macro   0x00000000       0x3a C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .debug_macro   0x00000000       0x2d C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .debug_macro   0x00000000      0xbb1 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .debug_macro   0x00000000      0x22c C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .debug_macro   0x00000000       0x42 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .debug_macro   0x00000000       0x52 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .debug_macro   0x00000000       0x78 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .debug_macro   0x00000000       0x82 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .debug_macro   0x00000000      0x48c C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .debug_macro   0x00000000       0x34 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .debug_macro   0x00000000      0x4c5 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .debug_macro   0x00000000      0x1b7 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .debug_macro   0x00000000       0x10 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .debug_macro   0x00000000      0x21b C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .debug_macro   0x00000000      0x1b9 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .debug_macro   0x00000000       0x40 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .debug_macro   0x00000000       0x22 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .debug_macro   0x00000000      0x162 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .debug_macro   0x00000000       0x94 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .debug_macro   0x00000000       0xb8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .debug_macro   0x00000000       0x4c C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .debug_macro   0x00000000       0x16 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .debug_macro   0x00000000      0x328 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .debug_macro   0x00000000       0x49 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .debug_macro   0x00000000       0x16 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .debug_macro   0x00000000       0xca C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .debug_macro   0x00000000       0x18 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .group         0x00000000        0x8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .text          0x00000000        0x0 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .data          0x00000000        0x0 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .bss           0x00000000        0x0 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+                0x00000000       0x62 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000      0x8c2 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0x10 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000      0x12d C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000      0x5b2 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0x22 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0x7b C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0x10 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0x2d C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0x3a C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0x2d C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000      0xbb1 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0x58 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000      0x230 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0x42 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0x52 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0x78 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0x82 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000      0x48c C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0x34 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000      0x4c5 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000      0x1b7 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0x10 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000      0x21b C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000      0x1b9 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0x40 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0x22 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000      0x162 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0x94 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0xb8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0x4c C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0x16 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000      0x328 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0x49 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0x16 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0xca C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0x18 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .text          0x00000000        0x0 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .data          0x00000000        0x0 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .bss           0x00000000        0x0 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .text.Chip_Clock_EnableCrystal
+                0x00000000       0x20 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .text.Chip_Clock_IsCrystalEnabled
+                0x00000000       0x24 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .text.Chip_SetupXtalClocking
+                0x00000000       0x90 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000      0x8c2 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0x10 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000      0x12d C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000      0x5b2 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0x22 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0x7b C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0x10 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0x2d C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0x3a C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0x2d C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000      0xbb1 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0x58 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000      0x230 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0x42 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0x52 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0x78 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0x82 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000      0x48c C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0x34 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000      0x4c5 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000      0x1b7 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0x10 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000      0x21b C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000      0x1b9 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0x40 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0x22 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000      0x162 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0x94 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0xb8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0x4c C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0x16 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000      0x328 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0x49 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0x16 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0xca C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0x18 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .group         0x00000000        0x8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .text          0x00000000        0x0 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .data          0x00000000        0x0 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .bss           0x00000000        0x0 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
  .text.Chip_TIMER_DeInit
-                0x00000000       0x1e C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+                0x00000000       0x1e C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
  .text.Chip_TIMER_ExtMatchControlSet
-                0x00000000       0x70 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .debug_macro   0x00000000      0x8c2 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .debug_macro   0x00000000       0x10 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .debug_macro   0x00000000      0x12d C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .debug_macro   0x00000000      0x5b2 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .debug_macro   0x00000000       0x22 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .debug_macro   0x00000000       0x7b C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .debug_macro   0x00000000       0x10 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .debug_macro   0x00000000       0x2d C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .debug_macro   0x00000000       0x3a C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .debug_macro   0x00000000       0x2d C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .debug_macro   0x00000000      0xbb1 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .debug_macro   0x00000000      0x22c C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .debug_macro   0x00000000       0x42 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .debug_macro   0x00000000       0x52 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .debug_macro   0x00000000       0x78 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .debug_macro   0x00000000       0x82 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .debug_macro   0x00000000      0x48c C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .debug_macro   0x00000000       0x34 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .debug_macro   0x00000000      0x4c5 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .debug_macro   0x00000000      0x1b7 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .debug_macro   0x00000000       0x10 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .debug_macro   0x00000000      0x21b C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .debug_macro   0x00000000      0x1b9 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .debug_macro   0x00000000       0x40 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .debug_macro   0x00000000       0x22 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .debug_macro   0x00000000      0x162 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .debug_macro   0x00000000       0x94 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .debug_macro   0x00000000       0xb8 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .debug_macro   0x00000000       0x4c C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .debug_macro   0x00000000       0x16 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .debug_macro   0x00000000      0x328 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .debug_macro   0x00000000       0x49 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .debug_macro   0x00000000       0x16 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .debug_macro   0x00000000       0xca C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .debug_macro   0x00000000       0x18 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+                0x00000000       0x70 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .debug_macro   0x00000000      0x8c2 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .debug_macro   0x00000000       0x10 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .debug_macro   0x00000000      0x12d C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .debug_macro   0x00000000      0x5b2 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .debug_macro   0x00000000       0x22 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .debug_macro   0x00000000       0x7b C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .debug_macro   0x00000000       0x10 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .debug_macro   0x00000000       0x2d C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .debug_macro   0x00000000       0x3a C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .debug_macro   0x00000000       0x2d C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .debug_macro   0x00000000      0xbb1 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .debug_macro   0x00000000       0x58 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .debug_macro   0x00000000      0x230 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .debug_macro   0x00000000       0x42 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .debug_macro   0x00000000       0x52 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .debug_macro   0x00000000       0x78 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .debug_macro   0x00000000       0x82 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .debug_macro   0x00000000      0x48c C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .debug_macro   0x00000000       0x34 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .debug_macro   0x00000000      0x4c5 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .debug_macro   0x00000000      0x1b7 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .debug_macro   0x00000000       0x10 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .debug_macro   0x00000000      0x21b C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .debug_macro   0x00000000      0x1b9 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .debug_macro   0x00000000       0x40 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .debug_macro   0x00000000       0x22 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .debug_macro   0x00000000      0x162 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .debug_macro   0x00000000       0x94 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .debug_macro   0x00000000       0xb8 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .debug_macro   0x00000000       0x4c C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .debug_macro   0x00000000       0x16 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .debug_macro   0x00000000      0x328 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .debug_macro   0x00000000       0x49 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .debug_macro   0x00000000       0x16 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .debug_macro   0x00000000       0xca C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .debug_macro   0x00000000       0x18 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
  .text          0x00000000        0x0 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_semihost.a(_cr__main.o)
  .data          0x00000000        0x0 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_semihost.a(_cr__main.o)
  .bss           0x00000000        0x0 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_semihost.a(_cr__main.o)
@@ -1284,7 +1303,7 @@ LOAD ./Example/src/FRTOS.o
 LOAD ./Example/src/cr_startup_lpc175x_6x.o
 LOAD ./Example/src/crp.o
 LOAD ./Example/src/sysinit.o
-LOAD C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a
+LOAD C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a
 START GROUP
 LOAD c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_semihost.a
 LOAD c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a
@@ -1303,7 +1322,7 @@ END GROUP
                 0x20084000                __top_RamAHB32 = 0x20084000
                 0x20084000                __top_RAM2 = 0x20084000
 
-.text           0x00000000     0x2eb8
+.text           0x00000000     0x2eec
  FILL mask 0xff
                 0x00000000                __vectors_start__ = ABSOLUTE (.)
  *(.isr_vector)
@@ -1312,10 +1331,10 @@ END GROUP
                 0x000000cc                . = ALIGN (0x4)
                 0x000000cc                __section_table_start = .
                 0x000000cc                __data_section_table = .
-                0x000000cc        0x4 LONG 0x2eb8 LOADADDR (.data)
+                0x000000cc        0x4 LONG 0x2eec LOADADDR (.data)
                 0x000000d0        0x4 LONG 0x10000000 ADDR (.data)
                 0x000000d4        0x4 LONG 0x4 SIZEOF (.data)
-                0x000000d8        0x4 LONG 0x2eb8 LOADADDR (.data_RAM2)
+                0x000000d8        0x4 LONG 0x2eec LOADADDR (.data_RAM2)
                 0x000000dc        0x4 LONG 0x2007c000 ADDR (.data_RAM2)
                 0x000000e0        0x4 LONG 0x0 SIZEOF (.data_RAM2)
                 0x000000e4                __data_section_table_end = .
@@ -1561,227 +1580,226 @@ END GROUP
                 0x00001fa6       0x32 ./Example/src/FRTOS.o
  .text.Chip_TIMER_ResetOnMatchEnable
                 0x00001fd8       0x34 ./Example/src/FRTOS.o
+ .text.Chip_TIMER_ResetOnMatchDisable
+                0x0000200c       0x36 ./Example/src/FRTOS.o
+ *fill*         0x00002042        0x2 ff
  .text.uC_StartUp
-                0x0000200c       0x38 ./Example/src/FRTOS.o
-                0x0000200c                uC_StartUp
+                0x00002044       0x38 ./Example/src/FRTOS.o
+                0x00002044                uC_StartUp
  .text.vTaskInicTimer
-                0x00002044       0x5e ./Example/src/FRTOS.o
- *fill*         0x000020a2        0x2 ff
+                0x0000207c       0x84 ./Example/src/FRTOS.o
  .text.xTaskToggle
-                0x000020a4       0x2c ./Example/src/FRTOS.o
+                0x00002100       0x2c ./Example/src/FRTOS.o
  .text.TIMER0_IRQHandler
-                0x000020d0       0x58 ./Example/src/FRTOS.o
-                0x000020d0                TIMER0_IRQHandler
- .text.main     0x00002128       0x8c ./Example/src/FRTOS.o
-                0x00002128                main
+                0x0000212c       0x98 ./Example/src/FRTOS.o
+                0x0000212c                TIMER0_IRQHandler
+ .text.main     0x000021c4       0x8c ./Example/src/FRTOS.o
+                0x000021c4                main
  .text.SystemInit
-                0x000021b4       0x24 ./Example/src/sysinit.o
-                0x000021b4                SystemInit
+                0x00002250       0x24 ./Example/src/sysinit.o
+                0x00002250                SystemInit
  .text.SystemCoreClockUpdate
-                0x000021d8       0x18 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
-                0x000021d8                SystemCoreClockUpdate
+                0x00002274       0x18 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+                0x00002274                SystemCoreClockUpdate
  .text.Chip_Clock_IsMainPLLEnabled
-                0x000021f0       0x24 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x0000228c       0x24 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
  .text.Chip_Clock_IsMainPLLConnected
-                0x00002214       0x24 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x000022b0       0x24 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
  .text.Chip_Clock_FeedPLL
-                0x00002238       0x34 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x000022d4       0x34 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
  .text.Chip_Clock_GetMainPLLSource
-                0x0000226c       0x20 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00002308       0x20 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
  .text.Chip_Clock_GetMainOscRate
-                0x0000228c       0x14 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00002328       0x14 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
  .text.Chip_Clock_GetIntOscRate
-                0x000022a0       0x14 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x0000233c       0x14 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
  .text.Chip_Clock_GetRTCOscRate
-                0x000022b4       0x14 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00002350       0x14 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
  .text.Chip_Clock_GetMainPLLInClockRate
-                0x000022c8        0xe C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- *fill*         0x000022d6        0x2 ff
+                0x00002364        0xe C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ *fill*         0x00002372        0x2 ff
  .text.Chip_Clock_EnablePLL
-                0x000022d8       0x44 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
-                0x000022d8                Chip_Clock_EnablePLL
+                0x00002374       0x44 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00002374                Chip_Clock_EnablePLL
  .text.Chip_Clock_DisablePLL
-                0x0000231c       0x48 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
-                0x0000231c                Chip_Clock_DisablePLL
+                0x000023b8       0x48 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x000023b8                Chip_Clock_DisablePLL
  .text.Chip_Clock_SetupPLL
-                0x00002364       0x5c C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
-                0x00002364                Chip_Clock_SetupPLL
+                0x00002400       0x5c C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00002400                Chip_Clock_SetupPLL
  .text.Chip_Clock_EnablePeriphClock
-                0x000023c0       0x34 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
-                0x000023c0                Chip_Clock_EnablePeriphClock
+                0x0000245c       0x34 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x0000245c                Chip_Clock_EnablePeriphClock
  .text.Chip_Clock_GetCPUClockSource
-                0x000023f4       0x24 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
-                0x000023f4                Chip_Clock_GetCPUClockSource
+                0x00002490       0x24 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00002490                Chip_Clock_GetCPUClockSource
  .text.Chip_Clock_SetCPUClockDiv
-                0x00002418       0x20 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
-                0x00002418                Chip_Clock_SetCPUClockDiv
+                0x000024b4       0x20 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x000024b4                Chip_Clock_SetCPUClockDiv
  .text.Chip_Clock_GetCPUClockDiv
-                0x00002438       0x1c C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
-                0x00002438                Chip_Clock_GetCPUClockDiv
+                0x000024d4       0x1c C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x000024d4                Chip_Clock_GetCPUClockDiv
  .text.Chip_Clock_GetSYSCLKRate
-                0x00002454       0x34 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
-                0x00002454                Chip_Clock_GetSYSCLKRate
+                0x000024f0       0x34 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x000024f0                Chip_Clock_GetSYSCLKRate
  .text.Chip_Clock_GetMainPLLOutClockRate
-                0x00002488       0x54 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
-                0x00002488                Chip_Clock_GetMainPLLOutClockRate
+                0x00002524       0x54 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00002524                Chip_Clock_GetMainPLLOutClockRate
  .text.Chip_Clock_GetMainClockRate
-                0x000024dc       0x28 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
-                0x000024dc                Chip_Clock_GetMainClockRate
+                0x00002578       0x28 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00002578                Chip_Clock_GetMainClockRate
  .text.Chip_Clock_GetSystemClockRate
-                0x00002504       0x18 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
-                0x00002504                Chip_Clock_GetSystemClockRate
+                0x000025a0       0x18 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x000025a0                Chip_Clock_GetSystemClockRate
  .text.Chip_IOCON_PinMux
-                0x0000251c       0x92 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
-                0x0000251c                Chip_IOCON_PinMux
- *fill*         0x000025ae        0x2 ff
+                0x000025b8       0x92 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+                0x000025b8                Chip_IOCON_PinMux
+ *fill*         0x0000264a        0x2 ff
  .text.Chip_Clock_IsMainPLLEnabled
-                0x000025b0       0x24 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+                0x0000264c       0x24 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
  .text.Chip_Clock_IsMainPLLLocked
-                0x000025d4       0x24 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+                0x00002670       0x24 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
  .text.Chip_Clock_IsMainPLLConnected
-                0x000025f8       0x24 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .text.Chip_Clock_EnableCrystal
-                0x0000261c       0x20 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .text.Chip_Clock_IsCrystalEnabled
-                0x0000263c       0x24 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+                0x00002694       0x24 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
  .text.Chip_Clock_SetMainPLLSource
-                0x00002660       0x20 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .text.Chip_SetupXtalClocking
-                0x00002680       0x90 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
-                0x00002680                Chip_SetupXtalClocking
+                0x000026b8       0x20 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .text.Chip_SetupIrcClocking
+                0x000026d8       0x6a C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+                0x000026d8                Chip_SetupIrcClocking
  .text.Chip_SystemInit
-                0x00002710        0xc C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
-                0x00002710                Chip_SystemInit
+                0x00002742        0xc C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+                0x00002742                Chip_SystemInit
+ *fill*         0x0000274e        0x2 ff
  .text.Chip_Timer_GetClockIndex
-                0x0000271c       0x50 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+                0x00002750       0x50 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
  .text.Chip_TIMER_Init
-                0x0000276c       0x1e C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
-                0x0000276c                Chip_TIMER_Init
+                0x000027a0       0x1e C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+                0x000027a0                Chip_TIMER_Init
  .text.Chip_TIMER_Reset
-                0x0000278a       0x3a C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
-                0x0000278a                Chip_TIMER_Reset
- .text.__main   0x000027c4        0xe c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_semihost.a(_cr__main.o)
-                0x000027c4                __CR_SEMIHOST
-                0x000027c4                __main
- .text.memcpy   0x000027d2        0x4 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(memcpy.o)
-                0x000027d2                memcpy
- .text.memset   0x000027d6        0x4 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(memset.o)
-                0x000027d6                memset
- *fill*         0x000027da        0x2 ff
- .text.malloc   0x000027dc       0xc4 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(alloc.o)
-                0x000027dc                malloc
- .text.free     0x000028a0       0x30 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(alloc.o)
-                0x000028a0                free
- .text._initio  0x000028d0       0x78 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(initio.o)
-                0x000028d0                _initio
- .text.setvbuf  0x00002948       0x40 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(setvbuf.o)
-                0x00002948                setvbuf
- .text._sbrk    0x00002988       0x3c c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(_cr_sbrk.o)
-                0x00002988                _sbrk
- .text._fdopen  0x000029c4       0x68 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(_fdopen.o)
-                0x000029c4                _fdopen
- .text.fclose   0x00002a2c       0x58 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(fclose.o)
-                0x00002a2c                fclose
- .text.fflush   0x00002a84       0x44 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(fflush.o)
-                0x00002a84                fflush
- .text.fseek    0x00002ac8      0x100 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(fseek.o)
-                0x00002ac8                fseek
- .text.ftell    0x00002bc8       0x48 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(ftell.o)
-                0x00002bc8                ftell
- .text.remove   0x00002c10       0x14 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(remove.o)
-                0x00002c10                remove
- .text.strlen   0x00002c24       0x4a c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(strlen.o)
-                0x00002c24                strlen
- *fill*         0x00002c6e        0x2 ff
+                0x000027be       0x3a C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+                0x000027be                Chip_TIMER_Reset
+ .text.__main   0x000027f8        0xe c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_semihost.a(_cr__main.o)
+                0x000027f8                __CR_SEMIHOST
+                0x000027f8                __main
+ .text.memcpy   0x00002806        0x4 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(memcpy.o)
+                0x00002806                memcpy
+ .text.memset   0x0000280a        0x4 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(memset.o)
+                0x0000280a                memset
+ *fill*         0x0000280e        0x2 ff
+ .text.malloc   0x00002810       0xc4 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(alloc.o)
+                0x00002810                malloc
+ .text.free     0x000028d4       0x30 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(alloc.o)
+                0x000028d4                free
+ .text._initio  0x00002904       0x78 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(initio.o)
+                0x00002904                _initio
+ .text.setvbuf  0x0000297c       0x40 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(setvbuf.o)
+                0x0000297c                setvbuf
+ .text._sbrk    0x000029bc       0x3c c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(_cr_sbrk.o)
+                0x000029bc                _sbrk
+ .text._fdopen  0x000029f8       0x68 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(_fdopen.o)
+                0x000029f8                _fdopen
+ .text.fclose   0x00002a60       0x58 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(fclose.o)
+                0x00002a60                fclose
+ .text.fflush   0x00002ab8       0x44 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(fflush.o)
+                0x00002ab8                fflush
+ .text.fseek    0x00002afc      0x100 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(fseek.o)
+                0x00002afc                fseek
+ .text.ftell    0x00002bfc       0x48 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(ftell.o)
+                0x00002bfc                ftell
+ .text.remove   0x00002c44       0x14 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(remove.o)
+                0x00002c44                remove
+ .text.strlen   0x00002c58       0x4a c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(strlen.o)
+                0x00002c58                strlen
+ *fill*         0x00002ca2        0x2 ff
  .text.__check_heap_overflow
-                0x00002c70       0x18 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(_cr_check_heap.o)
-                0x00002c70                __check_heap_overflow
+                0x00002ca4       0x18 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(_cr_check_heap.o)
+                0x00002ca4                __check_heap_overflow
  .text._do_fflush
-                0x00002c88       0x40 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(_do_fflush.o)
-                0x00002c88                _do_fflush
- .text._fflush  0x00002cc8       0x54 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(_fflush.o)
-                0x00002cc8                _fflush
+                0x00002cbc       0x40 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(_do_fflush.o)
+                0x00002cbc                _do_fflush
+ .text._fflush  0x00002cfc       0x54 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(_fflush.o)
+                0x00002cfc                _fflush
  .text._Cwritebuf
-                0x00002d1c       0x6c c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(_writebuf.o)
-                0x00002d1c                _Cwritebuf
+                0x00002d50       0x6c c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(_writebuf.o)
+                0x00002d50                _Cwritebuf
  .text._deferredlazyseek
-                0x00002d88       0x40 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(_deferredlazyseek.o)
-                0x00002d88                _deferredlazyseek
+                0x00002dbc       0x40 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(_deferredlazyseek.o)
+                0x00002dbc                _deferredlazyseek
  .text.__aeabi_memcpy
-                0x00002dc8       0x34 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m\libcr_eabihelpers.a(memcpy.o)
-                0x00002dc8                __aeabi_memcpy
-                0x00002dd2                __aeabi_memcpy8
-                0x00002dd2                __aeabi_memcpy4
+                0x00002dfc       0x34 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m\libcr_eabihelpers.a(memcpy.o)
+                0x00002dfc                __aeabi_memcpy
+                0x00002e06                __aeabi_memcpy8
+                0x00002e06                __aeabi_memcpy4
  .text.__aeabi_memset_lowlevel
-                0x00002dfc       0x32 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m\libcr_eabihelpers.a(memcpy.o)
-                0x00002dfc                __aeabi_lowlevel_memset
+                0x00002e30       0x32 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m\libcr_eabihelpers.a(memcpy.o)
+                0x00002e30                __aeabi_lowlevel_memset
  .text.__sys_close
-                0x00002e2e        0xc c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_semihost.a(__sys_close.o)
-                0x00002e2e                __sys_close
+                0x00002e62        0xc c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_semihost.a(__sys_close.o)
+                0x00002e62                __sys_close
  .text.__sys_flen
-                0x00002e3a        0xc c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_semihost.a(__sys_flen.o)
-                0x00002e3a                __sys_flen
+                0x00002e6e        0xc c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_semihost.a(__sys_flen.o)
+                0x00002e6e                __sys_flen
  .text.__sys_istty
-                0x00002e46        0xc c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_semihost.a(__sys_istty.o)
-                0x00002e46                __sys_istty
+                0x00002e7a        0xc c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_semihost.a(__sys_istty.o)
+                0x00002e7a                __sys_istty
  .text.__sys_remove
-                0x00002e52        0xc c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_semihost.a(__sys_remove.o)
-                0x00002e52                __sys_remove
+                0x00002e86        0xc c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_semihost.a(__sys_remove.o)
+                0x00002e86                __sys_remove
  .text.__sys_seek
-                0x00002e5e        0xc c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_semihost.a(__sys_seek.o)
-                0x00002e5e                __sys_seek
+                0x00002e92        0xc c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_semihost.a(__sys_seek.o)
+                0x00002e92                __sys_seek
  .text.__sys_tmpnam
-                0x00002e6a        0xc c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_semihost.a(__sys_tmpnam.o)
-                0x00002e6a                __sys_tmpnam
+                0x00002e9e        0xc c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_semihost.a(__sys_tmpnam.o)
+                0x00002e9e                __sys_tmpnam
  .text.__sys_write
-                0x00002e76        0xc c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_semihost.a(__sys_write.o)
-                0x00002e76                __sys_write
+                0x00002eaa        0xc c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_semihost.a(__sys_write.o)
+                0x00002eaa                __sys_write
  *(.rodata .rodata.* .constdata .constdata.*)
- *fill*         0x00002e82        0x2 ff
- .rodata        0x00002e84        0x5 ./freeRTOS/src/tasks.o
- *fill*         0x00002e89        0x3 ff
- .rodata        0x00002e8c       0x1c ./Example/src/FRTOS.o
+ *fill*         0x00002eb6        0x2 ff
+ .rodata        0x00002eb8        0x5 ./freeRTOS/src/tasks.o
+ *fill*         0x00002ebd        0x3 ff
+ .rodata        0x00002ec0       0x1c ./Example/src/FRTOS.o
  .rodata.OscRateIn
-                0x00002ea8        0x4 ./Example/src/sysinit.o
-                0x00002ea8                OscRateIn
+                0x00002edc        0x4 ./Example/src/sysinit.o
+                0x00002edc                OscRateIn
  .rodata.RTCOscRateIn
-                0x00002eac        0x4 ./Example/src/sysinit.o
-                0x00002eac                RTCOscRateIn
+                0x00002ee0        0x4 ./Example/src/sysinit.o
+                0x00002ee0                RTCOscRateIn
  .rodata._initio.str1.1
-                0x00002eb0        0x4 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(initio.o)
+                0x00002ee4        0x4 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(initio.o)
  .rodata.__num_Ciob_streams
-                0x00002eb4        0x4 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_semihost.a(__ciob.o)
-                0x00002eb4                __num_Ciob_streams
-                0x00002eb8                . = ALIGN (0x4)
+                0x00002ee8        0x4 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_semihost.a(__ciob.o)
+                0x00002ee8                __num_Ciob_streams
+                0x00002eec                . = ALIGN (0x4)
 
-.glue_7         0x00002eb8        0x0
- .glue_7        0x00002eb8        0x0 linker stubs
+.glue_7         0x00002eec        0x0
+ .glue_7        0x00002eec        0x0 linker stubs
 
-.glue_7t        0x00002eb8        0x0
- .glue_7t       0x00002eb8        0x0 linker stubs
+.glue_7t        0x00002eec        0x0
+ .glue_7t       0x00002eec        0x0 linker stubs
 
-.vfp11_veneer   0x00002eb8        0x0
- .vfp11_veneer  0x00002eb8        0x0 linker stubs
+.vfp11_veneer   0x00002eec        0x0
+ .vfp11_veneer  0x00002eec        0x0 linker stubs
 
-.v4_bx          0x00002eb8        0x0
- .v4_bx         0x00002eb8        0x0 linker stubs
+.v4_bx          0x00002eec        0x0
+ .v4_bx         0x00002eec        0x0 linker stubs
 
-.iplt           0x00002eb8        0x0
- .iplt          0x00002eb8        0x0 ./freeRTOS/src/FreeRTOSCommonHooks.o
+.iplt           0x00002eec        0x0
+ .iplt          0x00002eec        0x0 ./freeRTOS/src/FreeRTOSCommonHooks.o
 
-.rel.dyn        0x00002eb8        0x0
- .rel.iplt      0x00002eb8        0x0 ./freeRTOS/src/FreeRTOSCommonHooks.o
+.rel.dyn        0x00002eec        0x0
+ .rel.iplt      0x00002eec        0x0 ./freeRTOS/src/FreeRTOSCommonHooks.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x00002eb8                __exidx_start = .
+                0x00002eec                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x00002eb8                __exidx_end = .
-                0x00002eb8                _etext = .
+                0x00002eec                __exidx_end = .
+                0x00002eec                _etext = .
 
-.data_RAM2      0x2007c000        0x0 load address 0x00002eb8
+.data_RAM2      0x2007c000        0x0 load address 0x00002eec
  FILL mask 0xff
                 [!provide]                PROVIDE (__start_data_RAM2, .)
  *(.ramfunc.$RAM2)
@@ -1797,7 +1815,7 @@ END GROUP
                 0x10000000                . = ALIGN (0x4)
                 0x10000000                _end_uninit_RESERVED = .
 
-.data           0x10000000        0x4 load address 0x00002eb8
+.data           0x10000000        0x4 load address 0x00002eec
  FILL mask 0xff
                 0x10000000                _data = .
  *(vtable)
@@ -1808,7 +1826,7 @@ END GROUP
                 0x10000004                . = ALIGN (0x4)
                 0x10000004                _edata = .
 
-.igot.plt       0x10000004        0x0 load address 0x00002ebc
+.igot.plt       0x10000004        0x0 load address 0x00002ef0
  .igot.plt      0x10000004        0x0 ./freeRTOS/src/FreeRTOSCommonHooks.o
 
 .bss_RAM2       0x2007c000        0x0
@@ -1883,7 +1901,7 @@ END GROUP
  .bss.__Ciob    0x10000124      0x1e0 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_semihost.a(__ciob.o)
                 0x10000124                __Ciob
  *(COMMON)
- COMMON         0x10000304        0x4 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ COMMON         0x10000304        0x4 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
                 0x10000304                SystemCoreClock
                 0x10000308                . = ALIGN (0x4)
                 0x10000308                _ebss = .
@@ -1903,25 +1921,25 @@ END GROUP
                 0x10008000                PROVIDE (_vStackTop, DEFINED (__user_stack_top)?__user_stack_top:(__top_RamLoc32 - 0x0))
                 0xefff74de                PROVIDE (__valid_user_code_checksum, (0x0 - ((((((_vStackTop + (ResetISR + 0x1)) + (NMI_Handler + 0x1)) + (HardFault_Handler + 0x1)) + (DEFINED (MemManage_Handler)?MemManage_Handler:0x0 + 0x1)) + (DEFINED (BusFault_Handler)?BusFault_Handler:0x0 + 0x1)) + (DEFINED (UsageFault_Handler)?UsageFault_Handler:0x0 + 0x1))))
                 0x00000000                _image_start = LOADADDR (.text)
-                0x00002ebc                _image_end = (LOADADDR (.data) + SIZEOF (.data))
-                0x00002ebc                _image_size = (_image_end - _image_start)
+                0x00002ef0                _image_end = (LOADADDR (.data) + SIZEOF (.data))
+                0x00002ef0                _image_size = (_image_end - _image_start)
 OUTPUT(Dimmer.axf elf32-littlearm)
 
-.debug_info     0x00000000     0x602a
+.debug_info     0x00000000     0x605f
  .debug_info    0x00000000      0x25e ./freeRTOS/src/FreeRTOSCommonHooks.o
  .debug_info    0x0000025e      0x132 ./freeRTOS/src/heap_3.o
  .debug_info    0x00000390      0x2d6 ./freeRTOS/src/list.o
  .debug_info    0x00000666      0x3e7 ./freeRTOS/src/port.o
  .debug_info    0x00000a4d      0xf58 ./freeRTOS/src/queue.o
  .debug_info    0x000019a5     0x19ae ./freeRTOS/src/tasks.o
- .debug_info    0x00003353      0xbb1 ./Example/src/FRTOS.o
- .debug_info    0x00003f04      0x25c ./Example/src/cr_startup_lpc175x_6x.o
- .debug_info    0x00004160      0x200 ./Example/src/sysinit.o
- .debug_info    0x00004360      0x55a C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .debug_info    0x000048ba      0xba2 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .debug_info    0x0000545c      0x325 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .debug_info    0x00005781      0x479 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .debug_info    0x00005bfa      0x430 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .debug_info    0x00003353      0xbe6 ./Example/src/FRTOS.o
+ .debug_info    0x00003f39      0x25c ./Example/src/cr_startup_lpc175x_6x.o
+ .debug_info    0x00004195      0x200 ./Example/src/sysinit.o
+ .debug_info    0x00004395      0x55a C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_info    0x000048ef      0xba2 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_info    0x00005491      0x325 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_info    0x000057b6      0x479 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_info    0x00005c2f      0x430 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
 
 .debug_abbrev   0x00000000     0x17f1
  .debug_abbrev  0x00000000      0x17b ./freeRTOS/src/FreeRTOSCommonHooks.o
@@ -1933,13 +1951,13 @@ OUTPUT(Dimmer.axf elf32-littlearm)
  .debug_abbrev  0x00000ade      0x295 ./Example/src/FRTOS.o
  .debug_abbrev  0x00000d73      0x114 ./Example/src/cr_startup_lpc175x_6x.o
  .debug_abbrev  0x00000e87       0xdb ./Example/src/sysinit.o
- .debug_abbrev  0x00000f62      0x14d C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .debug_abbrev  0x000010af      0x301 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .debug_abbrev  0x000013b0      0x14a C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .debug_abbrev  0x000014fa      0x18a C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .debug_abbrev  0x00001684      0x16d C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .debug_abbrev  0x00000f62      0x14d C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_abbrev  0x000010af      0x301 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_abbrev  0x000013b0      0x14a C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_abbrev  0x000014fa      0x18a C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_abbrev  0x00001684      0x16d C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
 
-.debug_aranges  0x00000000      0x7a0
+.debug_aranges  0x00000000      0x7a8
  .debug_aranges
                 0x00000000       0x40 ./freeRTOS/src/FreeRTOSCommonHooks.o
  .debug_aranges
@@ -1953,152 +1971,153 @@ OUTPUT(Dimmer.axf elf32-littlearm)
  .debug_aranges
                 0x00000230      0x1e8 ./freeRTOS/src/tasks.o
  .debug_aranges
-                0x00000418       0xc0 ./Example/src/FRTOS.o
+                0x00000418       0xc8 ./Example/src/FRTOS.o
  .debug_aranges
-                0x000004d8       0x80 ./Example/src/cr_startup_lpc175x_6x.o
+                0x000004e0       0x80 ./Example/src/cr_startup_lpc175x_6x.o
  .debug_aranges
-                0x00000558       0x20 ./Example/src/sysinit.o
+                0x00000560       0x20 ./Example/src/sysinit.o
  .debug_aranges
-                0x00000578       0x38 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+                0x00000580       0x38 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
  .debug_aranges
-                0x000005b0      0x120 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x000005b8      0x120 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
  .debug_aranges
-                0x000006d0       0x30 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+                0x000006d8       0x30 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
  .debug_aranges
-                0x00000700       0x60 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+                0x00000708       0x60 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
  .debug_aranges
-                0x00000760       0x40 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+                0x00000768       0x40 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
 
-.debug_ranges   0x00000000      0x6c0
+.debug_ranges   0x00000000      0x6c8
  .debug_ranges  0x00000000       0x30 ./freeRTOS/src/FreeRTOSCommonHooks.o
  .debug_ranges  0x00000030       0x18 ./freeRTOS/src/heap_3.o
  .debug_ranges  0x00000048       0x30 ./freeRTOS/src/list.o
  .debug_ranges  0x00000078       0x68 ./freeRTOS/src/port.o
  .debug_ranges  0x000000e0      0x100 ./freeRTOS/src/queue.o
  .debug_ranges  0x000001e0      0x1d8 ./freeRTOS/src/tasks.o
- .debug_ranges  0x000003b8       0xb0 ./Example/src/FRTOS.o
- .debug_ranges  0x00000468       0x70 ./Example/src/cr_startup_lpc175x_6x.o
- .debug_ranges  0x000004d8       0x10 ./Example/src/sysinit.o
- .debug_ranges  0x000004e8       0x28 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .debug_ranges  0x00000510      0x110 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .debug_ranges  0x00000620       0x20 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .debug_ranges  0x00000640       0x50 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .debug_ranges  0x00000690       0x30 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .debug_ranges  0x000003b8       0xb8 ./Example/src/FRTOS.o
+ .debug_ranges  0x00000470       0x70 ./Example/src/cr_startup_lpc175x_6x.o
+ .debug_ranges  0x000004e0       0x10 ./Example/src/sysinit.o
+ .debug_ranges  0x000004f0       0x28 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_ranges  0x00000518      0x110 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_ranges  0x00000628       0x20 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_ranges  0x00000648       0x50 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_ranges  0x00000698       0x30 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
 
-.debug_macro    0x00000000     0x614f
- .debug_macro   0x00000000      0x24f ./freeRTOS/src/FreeRTOSCommonHooks.o
- .debug_macro   0x0000024f      0x8d4 ./freeRTOS/src/FreeRTOSCommonHooks.o
- .debug_macro   0x00000b23       0x10 ./freeRTOS/src/FreeRTOSCommonHooks.o
- .debug_macro   0x00000b33      0x12d ./freeRTOS/src/FreeRTOSCommonHooks.o
- .debug_macro   0x00000c60       0x16 ./freeRTOS/src/FreeRTOSCommonHooks.o
- .debug_macro   0x00000c76      0x5b2 ./freeRTOS/src/FreeRTOSCommonHooks.o
- .debug_macro   0x00001228       0xe8 ./freeRTOS/src/FreeRTOSCommonHooks.o
- .debug_macro   0x00001310      0x168 ./freeRTOS/src/FreeRTOSCommonHooks.o
- .debug_macro   0x00001478       0xe4 ./freeRTOS/src/FreeRTOSCommonHooks.o
- .debug_macro   0x0000155c       0x10 ./freeRTOS/src/FreeRTOSCommonHooks.o
- .debug_macro   0x0000156c       0x1f ./freeRTOS/src/FreeRTOSCommonHooks.o
- .debug_macro   0x0000158b      0x3f3 ./freeRTOS/src/FreeRTOSCommonHooks.o
- .debug_macro   0x0000197e       0xc0 ./freeRTOS/src/FreeRTOSCommonHooks.o
- .debug_macro   0x00001a3e       0x8c ./freeRTOS/src/FreeRTOSCommonHooks.o
- .debug_macro   0x00001aca       0x22 ./freeRTOS/src/FreeRTOSCommonHooks.o
- .debug_macro   0x00001aec       0x74 ./freeRTOS/src/FreeRTOSCommonHooks.o
- .debug_macro   0x00001b60       0x10 ./freeRTOS/src/FreeRTOSCommonHooks.o
- .debug_macro   0x00001b70       0x2d ./freeRTOS/src/FreeRTOSCommonHooks.o
- .debug_macro   0x00001b9d       0x3a ./freeRTOS/src/FreeRTOSCommonHooks.o
- .debug_macro   0x00001bd7       0x2d ./freeRTOS/src/FreeRTOSCommonHooks.o
- .debug_macro   0x00001c04      0xbb1 ./freeRTOS/src/FreeRTOSCommonHooks.o
- .debug_macro   0x000027b5      0x22c ./freeRTOS/src/FreeRTOSCommonHooks.o
- .debug_macro   0x000029e1       0x42 ./freeRTOS/src/FreeRTOSCommonHooks.o
- .debug_macro   0x00002a23       0x52 ./freeRTOS/src/FreeRTOSCommonHooks.o
- .debug_macro   0x00002a75       0x78 ./freeRTOS/src/FreeRTOSCommonHooks.o
- .debug_macro   0x00002aed       0x82 ./freeRTOS/src/FreeRTOSCommonHooks.o
- .debug_macro   0x00002b6f      0x48c ./freeRTOS/src/FreeRTOSCommonHooks.o
- .debug_macro   0x00002ffb       0x34 ./freeRTOS/src/FreeRTOSCommonHooks.o
- .debug_macro   0x0000302f      0x4c5 ./freeRTOS/src/FreeRTOSCommonHooks.o
- .debug_macro   0x000034f4      0x1b7 ./freeRTOS/src/FreeRTOSCommonHooks.o
- .debug_macro   0x000036ab       0x10 ./freeRTOS/src/FreeRTOSCommonHooks.o
- .debug_macro   0x000036bb      0x21b ./freeRTOS/src/FreeRTOSCommonHooks.o
- .debug_macro   0x000038d6      0x1b9 ./freeRTOS/src/FreeRTOSCommonHooks.o
- .debug_macro   0x00003a8f       0x40 ./freeRTOS/src/FreeRTOSCommonHooks.o
- .debug_macro   0x00003acf       0x22 ./freeRTOS/src/FreeRTOSCommonHooks.o
- .debug_macro   0x00003af1      0x162 ./freeRTOS/src/FreeRTOSCommonHooks.o
- .debug_macro   0x00003c53       0x94 ./freeRTOS/src/FreeRTOSCommonHooks.o
- .debug_macro   0x00003ce7       0xb8 ./freeRTOS/src/FreeRTOSCommonHooks.o
- .debug_macro   0x00003d9f       0x4c ./freeRTOS/src/FreeRTOSCommonHooks.o
- .debug_macro   0x00003deb       0x16 ./freeRTOS/src/FreeRTOSCommonHooks.o
- .debug_macro   0x00003e01      0x328 ./freeRTOS/src/FreeRTOSCommonHooks.o
- .debug_macro   0x00004129       0x49 ./freeRTOS/src/FreeRTOSCommonHooks.o
- .debug_macro   0x00004172       0x16 ./freeRTOS/src/FreeRTOSCommonHooks.o
- .debug_macro   0x00004188       0xca ./freeRTOS/src/FreeRTOSCommonHooks.o
- .debug_macro   0x00004252       0x11 ./freeRTOS/src/FreeRTOSCommonHooks.o
- .debug_macro   0x00004263       0xd4 ./freeRTOS/src/heap_3.o
- .debug_macro   0x00004337       0xb9 ./freeRTOS/src/list.o
- .debug_macro   0x000043f0      0x159 ./freeRTOS/src/port.o
- .debug_macro   0x00004549      0x122 ./freeRTOS/src/queue.o
- .debug_macro   0x0000466b       0x94 ./freeRTOS/src/queue.o
- .debug_macro   0x000046ff      0x185 ./freeRTOS/src/tasks.o
- .debug_macro   0x00004884       0x11 ./freeRTOS/src/tasks.o
- .debug_macro   0x00004895      0x288 ./Example/src/FRTOS.o
- .debug_macro   0x00004b1d       0x7b ./Example/src/FRTOS.o
- .debug_macro   0x00004b98       0x18 ./Example/src/FRTOS.o
- .debug_macro   0x00004bb0       0x10 ./Example/src/FRTOS.o
- .debug_macro   0x00004bc0       0xe8 ./Example/src/FRTOS.o
- .debug_macro   0x00004ca8       0x78 ./Example/src/FRTOS.o
- .debug_macro   0x00004d20       0x82 ./Example/src/FRTOS.o
- .debug_macro   0x00004da2       0x1d ./Example/src/cr_startup_lpc175x_6x.o
- .debug_macro   0x00004dbf      0x1cd ./Example/src/sysinit.o
- .debug_macro   0x00004f8c      0x1cd C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .debug_macro   0x00005159      0x8c2 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .debug_macro   0x00005a1b      0x1cd C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .debug_macro   0x00005be8      0x1cd C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .debug_macro   0x00005db5      0x1cd C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .debug_macro   0x00005f82      0x1cd C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+.debug_macro    0x00000000     0x6279
+ .debug_macro   0x00000000      0x268 ./freeRTOS/src/FreeRTOSCommonHooks.o
+ .debug_macro   0x00000268      0x8d4 ./freeRTOS/src/FreeRTOSCommonHooks.o
+ .debug_macro   0x00000b3c       0x10 ./freeRTOS/src/FreeRTOSCommonHooks.o
+ .debug_macro   0x00000b4c      0x12d ./freeRTOS/src/FreeRTOSCommonHooks.o
+ .debug_macro   0x00000c79       0x16 ./freeRTOS/src/FreeRTOSCommonHooks.o
+ .debug_macro   0x00000c8f      0x5b2 ./freeRTOS/src/FreeRTOSCommonHooks.o
+ .debug_macro   0x00001241       0xe8 ./freeRTOS/src/FreeRTOSCommonHooks.o
+ .debug_macro   0x00001329      0x168 ./freeRTOS/src/FreeRTOSCommonHooks.o
+ .debug_macro   0x00001491       0xe4 ./freeRTOS/src/FreeRTOSCommonHooks.o
+ .debug_macro   0x00001575       0x10 ./freeRTOS/src/FreeRTOSCommonHooks.o
+ .debug_macro   0x00001585       0x1f ./freeRTOS/src/FreeRTOSCommonHooks.o
+ .debug_macro   0x000015a4      0x3f3 ./freeRTOS/src/FreeRTOSCommonHooks.o
+ .debug_macro   0x00001997       0xc0 ./freeRTOS/src/FreeRTOSCommonHooks.o
+ .debug_macro   0x00001a57       0x8c ./freeRTOS/src/FreeRTOSCommonHooks.o
+ .debug_macro   0x00001ae3       0x22 ./freeRTOS/src/FreeRTOSCommonHooks.o
+ .debug_macro   0x00001b05       0x74 ./freeRTOS/src/FreeRTOSCommonHooks.o
+ .debug_macro   0x00001b79       0x10 ./freeRTOS/src/FreeRTOSCommonHooks.o
+ .debug_macro   0x00001b89       0x2d ./freeRTOS/src/FreeRTOSCommonHooks.o
+ .debug_macro   0x00001bb6       0x3a ./freeRTOS/src/FreeRTOSCommonHooks.o
+ .debug_macro   0x00001bf0       0x2d ./freeRTOS/src/FreeRTOSCommonHooks.o
+ .debug_macro   0x00001c1d      0xbb1 ./freeRTOS/src/FreeRTOSCommonHooks.o
+ .debug_macro   0x000027ce       0x58 ./freeRTOS/src/FreeRTOSCommonHooks.o
+ .debug_macro   0x00002826      0x230 ./freeRTOS/src/FreeRTOSCommonHooks.o
+ .debug_macro   0x00002a56       0x42 ./freeRTOS/src/FreeRTOSCommonHooks.o
+ .debug_macro   0x00002a98       0x52 ./freeRTOS/src/FreeRTOSCommonHooks.o
+ .debug_macro   0x00002aea       0x78 ./freeRTOS/src/FreeRTOSCommonHooks.o
+ .debug_macro   0x00002b62       0x82 ./freeRTOS/src/FreeRTOSCommonHooks.o
+ .debug_macro   0x00002be4      0x48c ./freeRTOS/src/FreeRTOSCommonHooks.o
+ .debug_macro   0x00003070       0x34 ./freeRTOS/src/FreeRTOSCommonHooks.o
+ .debug_macro   0x000030a4      0x4c5 ./freeRTOS/src/FreeRTOSCommonHooks.o
+ .debug_macro   0x00003569      0x1b7 ./freeRTOS/src/FreeRTOSCommonHooks.o
+ .debug_macro   0x00003720       0x10 ./freeRTOS/src/FreeRTOSCommonHooks.o
+ .debug_macro   0x00003730      0x21b ./freeRTOS/src/FreeRTOSCommonHooks.o
+ .debug_macro   0x0000394b      0x1b9 ./freeRTOS/src/FreeRTOSCommonHooks.o
+ .debug_macro   0x00003b04       0x40 ./freeRTOS/src/FreeRTOSCommonHooks.o
+ .debug_macro   0x00003b44       0x22 ./freeRTOS/src/FreeRTOSCommonHooks.o
+ .debug_macro   0x00003b66      0x162 ./freeRTOS/src/FreeRTOSCommonHooks.o
+ .debug_macro   0x00003cc8       0x94 ./freeRTOS/src/FreeRTOSCommonHooks.o
+ .debug_macro   0x00003d5c       0xb8 ./freeRTOS/src/FreeRTOSCommonHooks.o
+ .debug_macro   0x00003e14       0x4c ./freeRTOS/src/FreeRTOSCommonHooks.o
+ .debug_macro   0x00003e60       0x16 ./freeRTOS/src/FreeRTOSCommonHooks.o
+ .debug_macro   0x00003e76      0x328 ./freeRTOS/src/FreeRTOSCommonHooks.o
+ .debug_macro   0x0000419e       0x49 ./freeRTOS/src/FreeRTOSCommonHooks.o
+ .debug_macro   0x000041e7       0x16 ./freeRTOS/src/FreeRTOSCommonHooks.o
+ .debug_macro   0x000041fd       0xca ./freeRTOS/src/FreeRTOSCommonHooks.o
+ .debug_macro   0x000042c7       0x11 ./freeRTOS/src/FreeRTOSCommonHooks.o
+ .debug_macro   0x000042d8       0xd4 ./freeRTOS/src/heap_3.o
+ .debug_macro   0x000043ac       0xb9 ./freeRTOS/src/list.o
+ .debug_macro   0x00004465      0x159 ./freeRTOS/src/port.o
+ .debug_macro   0x000045be      0x122 ./freeRTOS/src/queue.o
+ .debug_macro   0x000046e0       0x94 ./freeRTOS/src/queue.o
+ .debug_macro   0x00004774      0x185 ./freeRTOS/src/tasks.o
+ .debug_macro   0x000048f9       0x11 ./freeRTOS/src/tasks.o
+ .debug_macro   0x0000490a      0x2a7 ./Example/src/FRTOS.o
+ .debug_macro   0x00004bb1       0x7b ./Example/src/FRTOS.o
+ .debug_macro   0x00004c2c       0x18 ./Example/src/FRTOS.o
+ .debug_macro   0x00004c44       0x10 ./Example/src/FRTOS.o
+ .debug_macro   0x00004c54       0xe8 ./Example/src/FRTOS.o
+ .debug_macro   0x00004d3c       0x78 ./Example/src/FRTOS.o
+ .debug_macro   0x00004db4       0x82 ./Example/src/FRTOS.o
+ .debug_macro   0x00004e36       0x1d ./Example/src/cr_startup_lpc175x_6x.o
+ .debug_macro   0x00004e53      0x1e6 ./Example/src/sysinit.o
+ .debug_macro   0x00005039      0x1e6 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x0000521f      0x8c2 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00005ae1      0x1e6 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00005cc7      0x1e6 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00005ead      0x1e6 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00006093      0x1e6 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
 
-.debug_line     0x00000000     0x4627
- .debug_line    0x00000000      0x5d6 ./freeRTOS/src/FreeRTOSCommonHooks.o
- .debug_line    0x000005d6      0x261 ./freeRTOS/src/heap_3.o
- .debug_line    0x00000837      0x2af ./freeRTOS/src/list.o
- .debug_line    0x00000ae6      0x388 ./freeRTOS/src/port.o
- .debug_line    0x00000e6e      0x6a7 ./freeRTOS/src/queue.o
- .debug_line    0x00001515      0xbf2 ./freeRTOS/src/tasks.o
- .debug_line    0x00002107      0x79a ./Example/src/FRTOS.o
- .debug_line    0x000028a1       0xdb ./Example/src/cr_startup_lpc175x_6x.o
- .debug_line    0x0000297c      0x40e ./Example/src/sysinit.o
- .debug_line    0x00002d8a      0x456 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .debug_line    0x000031e0      0x6d2 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .debug_line    0x000038b2      0x442 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .debug_line    0x00003cf4      0x4cc C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .debug_line    0x000041c0      0x467 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+.debug_line     0x00000000     0x441a
+ .debug_line    0x00000000      0x587 ./freeRTOS/src/FreeRTOSCommonHooks.o
+ .debug_line    0x00000587      0x225 ./freeRTOS/src/heap_3.o
+ .debug_line    0x000007ac      0x273 ./freeRTOS/src/list.o
+ .debug_line    0x00000a1f      0x34c ./freeRTOS/src/port.o
+ .debug_line    0x00000d6b      0x66b ./freeRTOS/src/queue.o
+ .debug_line    0x000013d6      0xbb6 ./freeRTOS/src/tasks.o
+ .debug_line    0x00001f8c      0x77a ./Example/src/FRTOS.o
+ .debug_line    0x00002706       0xdb ./Example/src/cr_startup_lpc175x_6x.o
+ .debug_line    0x000027e1      0x3fb ./Example/src/sysinit.o
+ .debug_line    0x00002bdc      0x443 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_line    0x0000301f      0x6bf C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_line    0x000036de      0x42f C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_line    0x00003b0d      0x4b9 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_line    0x00003fc6      0x454 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
 
-.debug_str      0x00000000    0x1936d
- .debug_str     0x00000000    0x13ab5 ./freeRTOS/src/FreeRTOSCommonHooks.o
-                              0x13bb4 (size before relaxing)
- .debug_str     0x00013ab5      0x103 ./freeRTOS/src/heap_3.o
-                               0x72ae (size before relaxing)
- .debug_str     0x00013bb8      0x139 ./freeRTOS/src/list.o
-                               0x6dbe (size before relaxing)
- .debug_str     0x00013cf1      0x75a ./freeRTOS/src/port.o
-                               0x7991 (size before relaxing)
- .debug_str     0x0001444b      0xf75 ./freeRTOS/src/queue.o
-                               0x833a (size before relaxing)
- .debug_str     0x000153c0     0x1b51 ./freeRTOS/src/tasks.o
-                               0x9098 (size before relaxing)
- .debug_str     0x00016f11     0x152c ./Example/src/FRTOS.o
-                              0x15836 (size before relaxing)
- .debug_str     0x0001843d      0x1b3 ./Example/src/cr_startup_lpc175x_6x.o
+.debug_str      0x00000000    0x195d8
+ .debug_str     0x00000000    0x13ccc ./freeRTOS/src/FreeRTOSCommonHooks.o
+                              0x13ddd (size before relaxing)
+ .debug_str     0x00013ccc      0x103 ./freeRTOS/src/heap_3.o
+                               0x7290 (size before relaxing)
+ .debug_str     0x00013dcf      0x139 ./freeRTOS/src/list.o
+                               0x6da0 (size before relaxing)
+ .debug_str     0x00013f08      0x75a ./freeRTOS/src/port.o
+                               0x7973 (size before relaxing)
+ .debug_str     0x00014662      0xf75 ./freeRTOS/src/queue.o
+                               0x831c (size before relaxing)
+ .debug_str     0x000155d7     0x1b51 ./freeRTOS/src/tasks.o
+                               0x907a (size before relaxing)
+ .debug_str     0x00017128     0x155e ./Example/src/FRTOS.o
+                              0x15a91 (size before relaxing)
+ .debug_str     0x00018686      0x1fb ./Example/src/cr_startup_lpc175x_6x.o
                                0x2782 (size before relaxing)
- .debug_str     0x000185f0       0x23 ./Example/src/sysinit.o
-                              0x107a4 (size before relaxing)
- .debug_str     0x00018613      0x26a C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
-                              0x10ba2 (size before relaxing)
- .debug_str     0x0001887d      0x857 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
-                              0x11220 (size before relaxing)
- .debug_str     0x000190d4       0xa4 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
-                              0x1069d (size before relaxing)
- .debug_str     0x00019178       0xc4 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
-                              0x10885 (size before relaxing)
- .debug_str     0x0001923c      0x131 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
-                              0x109ce (size before relaxing)
+ .debug_str     0x00018881       0x23 ./Example/src/sysinit.o
+                              0x109cd (size before relaxing)
+ .debug_str     0x000188a4      0x244 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+                              0x10dc3 (size before relaxing)
+ .debug_str     0x00018ae8      0x857 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                              0x11441 (size before relaxing)
+ .debug_str     0x0001933f       0xa4 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+                              0x108be (size before relaxing)
+ .debug_str     0x000193e3       0xc4 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+                              0x10aa6 (size before relaxing)
+ .debug_str     0x000194a7      0x131 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+                              0x10bef (size before relaxing)
 
 .comment        0x00000000       0x7f
  .comment       0x00000000       0x7f ./freeRTOS/src/FreeRTOSCommonHooks.o
@@ -2111,11 +2130,11 @@ OUTPUT(Dimmer.axf elf32-littlearm)
  .comment       0x0000007f       0x80 ./Example/src/FRTOS.o
  .comment       0x0000007f       0x80 ./Example/src/cr_startup_lpc175x_6x.o
  .comment       0x0000007f       0x80 ./Example/src/sysinit.o
- .comment       0x0000007f       0x80 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .comment       0x0000007f       0x80 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .comment       0x0000007f       0x80 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .comment       0x0000007f       0x80 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .comment       0x0000007f       0x80 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .comment       0x0000007f       0x80 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .comment       0x0000007f       0x80 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .comment       0x0000007f       0x80 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .comment       0x0000007f       0x80 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .comment       0x0000007f       0x80 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
  .comment       0x0000007f       0x80 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_semihost.a(_cr__main.o)
  .comment       0x0000007f       0x80 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(memcpy.o)
  .comment       0x0000007f       0x80 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(memset.o)
@@ -2160,15 +2179,15 @@ OUTPUT(Dimmer.axf elf32-littlearm)
  .ARM.attributes
                 0x00000198       0x33 ./Example/src/sysinit.o
  .ARM.attributes
-                0x000001cb       0x33 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+                0x000001cb       0x33 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
  .ARM.attributes
-                0x000001fe       0x33 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x000001fe       0x33 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
  .ARM.attributes
-                0x00000231       0x33 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+                0x00000231       0x33 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
  .ARM.attributes
-                0x00000264       0x33 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+                0x00000264       0x33 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
  .ARM.attributes
-                0x00000297       0x33 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+                0x00000297       0x33 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
  .ARM.attributes
                 0x000002ca       0x33 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_semihost.a(_cr__main.o)
  .ARM.attributes
@@ -2230,18 +2249,18 @@ OUTPUT(Dimmer.axf elf32-littlearm)
  .ARM.attributes
                 0x00000813       0x21 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_semihost.a(__sys_write.o)
 
-.debug_frame    0x00000000     0x1cbc
+.debug_frame    0x00000000     0x1ce4
  .debug_frame   0x00000000       0xb4 ./freeRTOS/src/FreeRTOSCommonHooks.o
  .debug_frame   0x000000b4       0x58 ./freeRTOS/src/heap_3.o
  .debug_frame   0x0000010c       0xd8 ./freeRTOS/src/list.o
  .debug_frame   0x000001e4      0x178 ./freeRTOS/src/port.o
  .debug_frame   0x0000035c      0x498 ./freeRTOS/src/queue.o
  .debug_frame   0x000007f4      0x864 ./freeRTOS/src/tasks.o
- .debug_frame   0x00001058      0x32c ./Example/src/FRTOS.o
- .debug_frame   0x00001384      0x170 ./Example/src/cr_startup_lpc175x_6x.o
- .debug_frame   0x000014f4       0x34 ./Example/src/sysinit.o
- .debug_frame   0x00001528       0x88 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .debug_frame   0x000015b0      0x490 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .debug_frame   0x00001a40       0x80 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .debug_frame   0x00001ac0      0x12c C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .debug_frame   0x00001bec       0xd0 C:\Users\Fede\Documents\MCUXpressoIDE_10.1.1_606\workspace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .debug_frame   0x00001058      0x354 ./Example/src/FRTOS.o
+ .debug_frame   0x000013ac      0x170 ./Example/src/cr_startup_lpc175x_6x.o
+ .debug_frame   0x0000151c       0x34 ./Example/src/sysinit.o
+ .debug_frame   0x00001550       0x88 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_frame   0x000015d8      0x490 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_frame   0x00001a68       0x80 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_frame   0x00001ae8      0x12c C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_frame   0x00001c14       0xd0 C:\Users\unknown\git\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
