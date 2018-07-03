@@ -7,6 +7,9 @@
  Description : main definition
 ===============================================================================
 */
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//Includes
 #include "chip.h"
 #include "FreeRTOS.h"
 #include "task.h"
@@ -14,19 +17,24 @@
 #include "queue.h"
 #include <cr_section_macros.h>
 
-#define TICKRATE_HZ1 (4*2)	// 4: cte de frec - 2 tick por segundo
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//Defines
+#define TICKRATE_HZ1 (4*2)	// 4: cte de frec - 2 ticks por segundo
 #define TICKRATE_HZ2 (4*1)	// 4: cte de frec - 1 tick por segundo
-
 #define PORT(x) 	((uint8_t) x)
 #define PIN(x)		((uint8_t) x)
 #define OUTPUT		((uint8_t) 1)
 #define INPUT		((uint8_t) 0)
 
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//Variables Globales
 SemaphoreHandle_t Semaforo_1;
-//SemaphoreHandle_t Semaforo_2;
 
-//QueueHandle_t Cola_1;
 
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/* uC_StartUp:
+ * Inicializa los pines
+*/
 void uC_StartUp (void)
 {
 	Chip_GPIO_Init (LPC_GPIO);
@@ -34,7 +42,11 @@ void uC_StartUp (void)
 	Chip_IOCON_PinMux (LPC_IOCON , PORT(0) , PIN(22), IOCON_MODE_INACT , IOCON_FUNC0);
 }
 
-/*TAREA QUE INICIA EL TIMER*/
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/* vTaskInicTimer:
+ * Tarea que se encarga de inicializar el TIMER0 y luego se autoelimina
+*/
 static void vTaskInicTimer(void *pvParameters)
 {
 	while (1)
@@ -67,6 +79,11 @@ static void vTaskInicTimer(void *pvParameters)
 	}
 }
 
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/* xTaskPWM
+ * Tarea que se encarga de ..
+*/
 static void xTaskPWM(void *pvParameters)
 {
 	while (1)
@@ -75,20 +92,25 @@ static void xTaskPWM(void *pvParameters)
 	}
 }
 
-/*TAREA QUE RECIBE EL DATO*/
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/* xTaskToggle:
+ * Tarea que se encarga de togglear el led
+*/
 static void xTaskToggle(void *pvParameters)
 {
 	while (1)
 	{
-		xSemaphoreTake(Semaforo_1 , portMAX_DELAY );
+		xSemaphoreTake(Semaforo_1, portMAX_DELAY);
 		Chip_GPIO_SetPinToggle(LPC_GPIO,PORT(0),PIN(22));
 	}
 }
 
-/**
- * @brief	Handle interrupt from 32-bit timer
- * @return	Nothing
- */
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/* TIMER0_IRQHandler:
+ * Controlador del TIMER0
+*/
 void TIMER0_IRQHandler(void)
 {
 	BaseType_t Testigo=pdFALSE;
@@ -106,22 +128,20 @@ void TIMER0_IRQHandler(void)
 	{
 		Chip_TIMER_ClearMatch(LPC_TIMER0, 2);				//Resetea match
 
-		xSemaphoreGiveFromISR(Semaforo_1 , &Testigo );		//Devuelve si una de las tareas bloqueadas tiene mayor prioridad que la actual
+		xSemaphoreGiveFromISR(Semaforo_1, &Testigo);		//Devuelve si una de las tareas bloqueadas tiene mayor prioridad que la actual
 
 		portYIELD_FROM_ISR(Testigo);						//Si testigo es TRUE -> ejecuta el scheduler
 	}
 }
 
-/*
- * PROGRAMA QUE TRABAJA CON DOS TAREAS Y UNA COLA
- * Una tarea envia 5 datos a una cola y la otra tarea recive esos 5 datos encendiendo el led
- * del stick cada vez que recibe un dato.
- *
-*/
 
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/*
+ * main:
+ * Programa principal
+*/
 int main(void)
 {
-
 	uC_StartUp (); //Config
 
 	SystemCoreClockUpdate();
@@ -131,7 +151,7 @@ int main(void)
 	xSemaphoreTake(Semaforo_1 , portMAX_DELAY );
 
 	/*
-	 * TAREA QUE INICIALIZA EL TIMER, LUEGO SE AUTOELIMINA
+	 * TAREA CON MAYOR PRIORIDAD (+2UL) QUE INICIALIZA EL TIMER Y LUEGO SE AUTOELIMINA
 	 * */
 	xTaskCreate(vTaskInicTimer, (char *) "vTaskInicTimer",
 				configMINIMAL_STACK_SIZE, NULL, (tskIDLE_PRIORITY + 2UL),
