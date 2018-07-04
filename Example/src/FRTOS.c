@@ -62,12 +62,12 @@ static void vTaskInicTimer(void *pvParameters)
 
 		//MATCH 1: NO RESETEA LA CUENTA
 		Chip_TIMER_MatchEnableInt(LPC_TIMER0, 1);						//Habilita interrupcion del match 1 timer 0
-		Chip_TIMER_SetMatch(LPC_TIMER0, 1, (timerFreq / 2*TICKRATE_HZ1));	//Le asigna un valor al match - seteo la frec a la que quiero que el timer me interrumpa (Ej 1ms)
-		Chip_TIMER_ResetOnMatchDisable(LPC_TIMER0, 1);					//Cada vez que llega al match resetea la cuenta
+		Chip_TIMER_SetMatch(LPC_TIMER0, 1, (timerFreq / TICKRATE_HZ1));	//Le asigna un valor al match - seteo la frec a la que quiero que el timer me interrumpa (Ej 500ms)
+		Chip_TIMER_ResetOnMatchDisable(LPC_TIMER0, 1);					//Cada vez que llega al match NO resetea la cuenta
 
 		//MATCH 2: SI RESETEA LA CUENTA
-		Chip_TIMER_MatchEnableInt(LPC_TIMER0, 2);						//Habilita interrupcion del match 1 timer 0
-		Chip_TIMER_SetMatch(LPC_TIMER0, 2, (timerFreq / TICKRATE_HZ2));	//Le asigna un valor al match - seteo la frec a la que quiero que el timer me interrumpa (Ej 1ms)
+		Chip_TIMER_MatchEnableInt(LPC_TIMER0, 2);						//Habilita interrupcion del match 2 timer 0
+		Chip_TIMER_SetMatch(LPC_TIMER0, 2, (timerFreq / TICKRATE_HZ2));	//Le asigna un valor al match - seteo la frec a la que quiero que el timer me interrumpa (Ej 1s)
 		Chip_TIMER_ResetOnMatchEnable(LPC_TIMER0, 2);					//Cada vez que llega al match resetea la cuenta
 
 		Chip_TIMER_Enable(LPC_TIMER0);									//Comienza a contar
@@ -82,7 +82,7 @@ static void vTaskInicTimer(void *pvParameters)
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /* xTaskPWM
- * Tarea que se encarga de ..
+ * Tarea que se encarga de controlar el % de tiempo encendido o apagada la salida
 */
 static void xTaskPWM(void *pvParameters)
 {
