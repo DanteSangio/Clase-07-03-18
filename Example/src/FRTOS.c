@@ -110,7 +110,7 @@ static void xTaskPWM(void *pvParameters)
 */
 static void xTaskMatch0(void *pvParameters)
 {
-	static uint8_t Ticks_HZ_Match0 = 8;//el PWM inicializa al 50%
+	uint8_t Ticks_HZ_Match0 = 8;//el PWM inicializa al 50%
 	uint8_t Receive=0;
 	uint32_t timerFreq;
 
@@ -128,7 +128,7 @@ static void xTaskMatch0(void *pvParameters)
 
 		}
 
-		if(Receive)	//QUE HACE ESTA LINEA? NO DEBERIA SER if(Receive!=0) ?
+		if(Receive)
 		{
 			timerFreq = Chip_Clock_GetSystemClockRate();	//Obtiene la frecuencia a la que esta corriendo el uC
 			Chip_TIMER_SetMatch(LPC_TIMER0, 0, (timerFreq /Ticks_HZ_Match0 ));	//Le cambia el valor al match
