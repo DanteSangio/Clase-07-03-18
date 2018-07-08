@@ -27,7 +27,7 @@
 #define INPUT		((uint8_t) 0)
 
 //PULSUP		PORT (2),PORT (9) puerto,pin para incrementar PWM SW3 baseboard
-//PULSSOWN		PORT(1),PIN(4) puerto,pin para decrementar PWM SW4 baseboard
+//PULSDOWN		PORT(1),PIN(4) puerto,pin para decrementar PWM SW4 baseboard
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -69,12 +69,12 @@ static void vTaskInicTimer(void *pvParameters)
 		/* Timer setup for match and interrupt at TICKRATE_HZ */
 		Chip_TIMER_Reset(LPC_TIMER0);									//Borra la cuenta
 
-		//MATCH 1: NO RESETEA LA CUENTA
+		//MATCH 0: NO RESETEA LA CUENTA
 		Chip_TIMER_MatchEnableInt(LPC_TIMER0, 0);						//Habilita interrupcion del match 0 timer 0
 		Chip_TIMER_SetMatch(LPC_TIMER0, 0, (timerFreq / TICKRATE_HZ1));	//Le asigna un valor al match - seteo la frec a la que quiero que el timer me interrumpa (Ej 500ms)
 		Chip_TIMER_ResetOnMatchDisable(LPC_TIMER0, 0);					//Cada vez que llega al match NO resetea la cuenta
 
-		//MATCH 2: SI RESETEA LA CUENTA
+		//MATCH 1: SI RESETEA LA CUENTA
 		Chip_TIMER_MatchEnableInt(LPC_TIMER0, 1);						//Habilita interrupcion del match 1 timer 0
 		Chip_TIMER_SetMatch(LPC_TIMER0, 1, (timerFreq / TICKRATE_HZ2));	//Le asigna un valor al match - seteo la frec a la que quiero que el timer me interrumpa (Ej 1s)
 		Chip_TIMER_ResetOnMatchEnable(LPC_TIMER0, 1);					//Cada vez que llega al match resetea la cuenta
@@ -116,23 +116,23 @@ static void xTaskMatch0(void *pvParameters)
 
 	while (1)
 	{
-		xQueueReceive(Cola_1,&Receive,portMAX_DELAY);
+		xQueueReceive(Cola_1,&Receive,portMAX_DELAY);	//Para recibir de la Cola_1
 
-		if(Receive==1 && Ticks_HZ_Match0 > 3)
+		if(Receive==1 && Ticks_HZ_Match0 > 3)			//Si recibo 1 -> tengo que incrementar el duty
 		{
-			Ticks_HZ_Match0--;//aumenta el duty , va a dar cualquier porcentaje
+			Ticks_HZ_Match0--;							//Incrementa el duty, va a dar cualquier porcentaje
 		}
-		if(Receive==2 && Ticks_HZ_Match0 < 12 )
+		if(Receive==2 && Ticks_HZ_Match0 < 12 )			//Si recibo 2 -> tengo que decrementar el duty
 		{
-			Ticks_HZ_Match0++;//decrementa el duty, va a dar cualquier porcentaje
+			Ticks_HZ_Match0++;							//Decrementa el duty, va a dar cualquier porcentaje
 
 		}
 
-		if(Receive)
+		if(Receive)	//QUE HACE ESTA LINEA? NO DEBERIA SER if(Receive!=0) ?
 		{
-			timerFreq = Chip_Clock_GetSystemClockRate();
-			Chip_TIMER_SetMatch(LPC_TIMER0, 0, (timerFreq /Ticks_HZ_Match0 ));
-			Receive=0;
+			timerFreq = Chip_Clock_GetSystemClockRate();	//Obtiene la frecuencia a la que esta corriendo el uC
+			Chip_TIMER_SetMatch(LPC_TIMER0, 0, (timerFreq /Ticks_HZ_Match0 ));	//Le cambia el valor al match
+			Receive=0;										//Reestablece la variable
 		}
 	}
 	vTaskDelete(NULL);	//Borra la tarea si sale del while 1
@@ -147,19 +147,19 @@ static void xTaskPulsadores(void *pvParameters)
 	uint8_t envio=0; // envio 1 si hay que subir pwm, 2 si hay que bajar pwm
 	while (1)
 	{
-		if(Chip_GPIO_GetPinState(LPC_GPIO, PORT (2),PORT (9)))//veo si presionan el pulsador up
+		if(Chip_GPIO_GetPinState(LPC_GPIO, PORT(2),PORT(9)))	//veo si presionan el pulsador up
 		{
-			envio=1;
-			xQueueSendToBack(Cola_1, &envio, portMAX_DELAY);
-			vTaskDelay(1000/portTICK_RATE_MS);// delay 1 seg
+			envio=1;											//envio 1 -> subir PWM
+			xQueueSendToBack(Cola_1, &envio, portMAX_DELAY);	//Para enviar a la Cola_1
+			vTaskDelay(1000/portTICK_RATE_MS);					//Delay 1 seg
 		}
 
 
-		if(Chip_GPIO_GetPinState(LPC_GPIO, PORT(1),PIN(4)))//veo si presionan el pulsador up
+		if(Chip_GPIO_GetPinState(LPC_GPIO, PORT(1),PIN(4)))		//veo si presionan el pulsador up
 		{
-			envio=2;
-			xQueueSendToBack(Cola_1, &envio, portMAX_DELAY);
-			vTaskDelay(1000/portTICK_RATE_MS);// delay 1 seg
+			envio=2;											//envio 2 -> bajar PWM
+			xQueueSendToBack(Cola_1, &envio, portMAX_DELAY);	//Para enviar a la Cola_1
+			vTaskDelay(1000/portTICK_RATE_MS);					//Delay 1 seg
 		}
 	}
 	vTaskDelete(NULL);	//Borra la tarea si sale del while 1
@@ -179,7 +179,7 @@ void TIMER0_IRQHandler(void)
 	{
 		Chip_TIMER_ClearMatch(LPC_TIMER0, 0);				//Resetea match
 
-		xSemaphoreGiveFromISR(Semaforo_1 , &Testigo );		//Devuelve si una de las tareas bloqueadas tiene mayor prioridad que la actual
+		xSemaphoreGiveFromISR(Semaforo_1, &Testigo);		//Devuelve si una de las tareas bloqueadas tiene mayor prioridad que la actual
 
 		portYIELD_FROM_ISR(Testigo);						//Si testigo es TRUE -> ejecuta el scheduler
 	}
